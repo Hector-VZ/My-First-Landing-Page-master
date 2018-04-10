@@ -1,0 +1,45 @@
+#footer {
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+}
+
+#input-cta,
+#button-cta {
+    height: 75px;
+    font-size: 20px;
+}
+
+#jumbotron-landing {
+    background-color: #745234;
+    background-image: url("../images/portrait1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: White;
+}
+
+@media only screen and (max-width: 700px) {
+    #jumbotron-landing {
+        background: url("../images/portrait.jpg");
+        color: black;
+    }
+}
+
+#videob:hover {
+    height: 11%;
+    width: 11%;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 40%;
+}
+
+#wlink:hover {
+    opacity: 1;
+}
+
+#wlink {
+    opacity: .6;
+}
+
+#modal-title-landing {
+    color: black;
+}
